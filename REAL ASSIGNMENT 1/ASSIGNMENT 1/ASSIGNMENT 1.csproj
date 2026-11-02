@@ -47,6 +47,7 @@
     <Compile Include="Models\character.cs" />
     <Compile Include="Models\Knights.cs" />
     <Compile Include="Models\Mage.cs" />
+    <Compile Include="Patterns\CharacterFactory.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -56,7 +57,6 @@
   <ItemGroup>
     <Folder Include="Exceptions\" />
     <Folder Include="Managers\" />
-    <Folder Include="Patterns\" />
     <Folder Include="Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
