@@ -2,9 +2,9 @@
 
 namespace ASSIGNMENT_1.Models
 {
-    public class Archers : Character
+    public class Archer : Character
     {
-        public Archers(int id, string name, int health, int attackPower, int defense)
+        public Archer(int id, string name, int health, int attackPower, int defense)
             : base(id, name, health, attackPower, defense)
         {
         }

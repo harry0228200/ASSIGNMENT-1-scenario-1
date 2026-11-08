@@ -15,7 +15,7 @@ namespace ASSIGNMENT_1.Patterns
                     return new Knight(id, name, health, attackPower, defense);
 
                 case "archer":
-                    return new Archers(id, name, health, attackPower, defense);
+                    return new Archer(id, name, health, attackPower, defense);
 
                 case "mage":
                     return new Mage(id, name, health, attackPower, defense);

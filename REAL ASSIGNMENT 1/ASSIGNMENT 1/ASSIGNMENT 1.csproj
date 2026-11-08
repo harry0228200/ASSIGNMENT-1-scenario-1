@@ -43,9 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Models\Archers.cs" />
+    <Compile Include="Models\Archer.cs" />
     <Compile Include="Models\character.cs" />
-    <Compile Include="Models\Knights.cs" />
+    <Compile Include="Models\Knight.cs" />
     <Compile Include="Models\Mage.cs" />
     <Compile Include="Patterns\CharacterFactory.cs" />
     <Compile Include="Program.cs" />
